@@ -62,3 +62,4 @@ Worked on conversational AI performance analysis using clustering techniques.
 - Improved clustering accuracy and scalability for large conversational datasets
 - Constructed confusion matrices to identify systematic misclassification patterns
 
+{% include timeline.html %}
