@@ -8,75 +8,63 @@
   position: relative;
   padding: 40px 0;
 }
+
 .timeline-line {
   position: absolute;
   left: 50%;
   top: 0;
-  width: 4px;
+  width: 3px;
   height: 100%;
   background: #1e1e1e;
   transform: translateX(-50%);
-  border-radius: 4px;
 }
+
 .timeline-item {
   position: relative;
   width: 50%;
-  padding: 20px 40px;
+  padding: 30px 40px;
   box-sizing: border-box;
 }
+
 .timeline-item:nth-child(odd) {
   left: 0;
   text-align: right;
 }
+
 .timeline-item:nth-child(even) {
   left: 50%;
   text-align: left;
 }
-.timeline-dot {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  width: 22px;
-  height: 22px;
-  background: #1e1e1e;
-  border-radius: 50%;
-  transform: translateX(-50%);
-  border: 4px solid white;
-  z-index: 10;
+
+.timeline-icon {
+  font-size: 34px;
+  margin-bottom: 12px;
+  color: #1e1e1e;
 }
+
 .timeline-item h3 {
   margin: 0;
   font-size: 22px;
   font-weight: 700;
+  color: #2c6e3f;
 }
+
 .timeline-item p {
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: 15px;
-  opacity: 0.85;
-  line-height: 1.4;
+  line-height: 1.5;
+  opacity: 0.9;
 }
-.timeline-icon {
-  font-size: 32px;
-  margin-bottom: 10px;
-  color: #1e1e1e;
-}
-.timeline-item:hover .timeline-icon {
-  color: #5c6bc0;
-  transition: 0.3s ease;
-}
+
 @media(max-width: 700px) {
   .timeline-item {
     width: 100%;
     left: 0 !important;
     text-align: left !important;
-    padding-left: 70px;
+    padding-left: 60px;
   }
   .timeline-line {
-    left: 30px;
-  }
-  .timeline-dot {
-    left: 30px;
-    transform: translateX(0);
+    left: 20px;
   }
 }
 </style>
@@ -85,30 +73,40 @@
   <div class="timeline-line"></div>
 
   <div class="timeline-item">
-    <div class="timeline-dot"></div>
     <i class="timeline-icon fas fa-robot"></i>
     <h3>2018: Beginnings</h3>
-    <p>Took my first programming class and joined my school’s computer science team.</p>
+    <p>
+      Took my first programming class, explored robotics, 
+      and joined my high school’s computer science team.
+    </p>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-dot"></div>
     <i class="timeline-icon fas fa-laptop-code"></i>
     <h3>2022: Building</h3>
-    <p>Created full-stack projects and strengthened development skills through hackathons.</p>
+    <p>
+      Began developing full-stack applications and participating in hackathons. 
+      Learned how to design features, collaborate in teams, and turn ideas 
+      into functional products.
+    </p>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-dot"></div>
     <i class="timeline-icon fas fa-chalkboard-teacher"></i>
     <h3>2023: Mentoring</h3>
-    <p>Served as a TA for Cornell’s Girls Who Code, supporting new coders.</p>
+    <p>
+      Served as a TA for Cornell’s Girls Who Code program, helping new coders 
+      learn Python, debug projects, and gain confidence in their early technical journey. 
+      Reinforced my own foundations by teaching others.
+    </p>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-dot"></div>
     <i class="timeline-icon fas fa-chart-line"></i>
     <h3>2025: Industry</h3>
-    <p>Gained experience working with large-scale systems during an engineering internship.</p>
+    <p>
+      Worked on large-scale engineering systems, contributed to production-grade tools, 
+      and gained practical experience with infrastructure monitoring.
+    </p>
   </div>
 </div>
