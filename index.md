@@ -4,7 +4,15 @@
 _Expected May 2026_  | Ithaca, NY
 - Bachelor of Science, Computer Science
 - Minor in Applied Mathematics
-- **Relevant Coursework:** Algorithms, Computer Systems, Database Systems, Discrete Structures, Functional Programming, Machine Learning, OOP & Data Structures
+
+# Relevant Coursework  
+* Algorithms
+* Computer Systems
+* Database Systems
+* Discrete Structures
+* Functional Programming
+* Machine Learning
+* Object-Oriented Programming & Data Structures*
 
 # Skills
 
