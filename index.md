@@ -68,6 +68,8 @@ _2025_ | New York, NY
 
 # Projects
 
+<div class="card">
+
 ## Financial Literacy Platform | React, Flask
 
 ### [Overview](https://github.com/cfgjc24/Team-6)
@@ -78,6 +80,10 @@ Developed a full-stack platform for a nonprofit educational organization support
 - Integrated the frontend with a Flask backend, implementing secure login and registration
 - Created RESTful API routes enabling real-time data collection and visualization of engagement analytics
 
+</div>
+
+<div class="card">
+
 ## Research Assistant
 
 ### [Overview](https://docs.google.com/presentation/d/1gs0TbYA4DcNAkxH30osjYPhzEgHJXDwaDLdxGQghb20/edit)
@@ -87,3 +93,5 @@ Worked on conversational AI performance analysis using clustering techniques.
 - Evaluated HDBSCAN clustering for chatbot user-intent classification using Python and TensorFlow
 - Improved clustering accuracy and scalability for large conversational datasets
 - Constructed confusion matrices to identify systematic misclassification patterns
+
+</div>
