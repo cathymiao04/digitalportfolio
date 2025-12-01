@@ -1,9 +1,10 @@
 # Cathy Miao
 
-## Timeline
+# Timeline
+
 {% include timeline.html %}
 
-## Cornell University, College of Engineering
+# Cornell University, College of Engineering
 _Expected May 2026_  | Ithaca, NY
 - Bachelor of Science, Computer Science
 - Minor in Applied Mathematics
