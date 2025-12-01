@@ -82,7 +82,7 @@ Developed a full-stack platform for a nonprofit educational organization support
 
 <div class="card" markdown="1">
 
-## Research Assistant
+## Research Assistant | Python, TensorFlow
 
 ### [Overview](https://docs.google.com/presentation/d/1gs0TbYA4DcNAkxH30osjYPhzEgHJXDwaDLdxGQghb20/edit)
 Worked on conversational AI performance analysis using clustering techniques.
