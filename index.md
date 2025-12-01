@@ -73,7 +73,7 @@ _2025_ | New York, NY
 ### [Overview](https://github.com/cfgjc24/Team-6)
 Developed a full-stack platform for a nonprofit educational organization supporting student financial literacy.
 
-### Individual Contributions
+### Contributions
 - Built a customizable React frontend with progress tracking, engagement metrics, and dynamic data displays
 - Integrated the frontend with a Flask backend, implementing secure login and registration
 - Created RESTful API routes enabling real-time data collection and visualization of engagement analytics
