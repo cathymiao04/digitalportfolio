@@ -68,7 +68,7 @@ _2025_ | New York, NY
 
 # Projects
 
-<div class="card">
+<div class="card" markdown="1">
 
 ## Financial Literacy Platform | React, Flask
 
@@ -82,7 +82,7 @@ Developed a full-stack platform for a nonprofit educational organization support
 
 </div>
 
-<div class="card">
+<div class="card" markdown="1">
 
 ## Research Assistant
 
