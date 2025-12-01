@@ -6,13 +6,16 @@ _Expected May 2026_  | Ithaca, NY
 - Minor in Applied Mathematics
 
 # Relevant Coursework  
-* Algorithms
-* Computer Systems
-* Database Systems
-* Discrete Structures
-* Functional Programming
-* Machine Learning
-* Object-Oriented Programming & Data Structures*
+
+<div class="pill-box">
+  <div class="pill">Algorithms</div>
+  <div class="pill">Computer Systems</div>
+  <div class="pill">Database Systems</div>
+  <div class="pill">Discrete Structures</div>
+  <div class="pill">Functional Programming</div>
+  <div class="pill">Machine Learning</div>
+  <div class="pill">OOP & Data Structures</div>
+</div>
 
 # Skills
 
