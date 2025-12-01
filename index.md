@@ -62,15 +62,21 @@ _Expected May 2026_  | Ithaca, NY
 
 <div class="experience-block" markdown="1">
 
-## Datadog Internship
-
-**Software Engineer Intern**  
-_2025 | New York, NY_
+## Software Engineer Internship @ Datadog
 
 ### Work Included:
 - Developed tools in Go and TypeScript to diagnose and remediate issues in large-scale containerized workloads
 - Built an automated workflow for detecting and addressing resource-related application failures
 - Implemented a customizable views feature enabling engineers to save and reuse configuration filters
+
+</div>
+
+<div class="experience-block" markdown="1">
+
+## Software Member @ Cornell Autonomous Bicycle Project Team
+
+### Work Included:
+- Developed a q-learning algorithm enabling the bicycle to autonomously update its state and navigation behavior through reward-driven feedback  
 
 </div>
 
