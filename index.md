@@ -1,4 +1,5 @@
 # Cathy Miao
+{% include timeline.html %}
 
 ## Cornell University, College of Engineering
 _Expected May 2026_  | Ithaca, NY
