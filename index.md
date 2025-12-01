@@ -50,7 +50,7 @@
 
   <div class="card third">
   <div style="text-align:center;">
-  <h2>Tools</h2>
+  <h2>Tools / Frameworks</h2>
 </div>
   <div class="pill-box">
     <div class="pill">Kubernetes</div>
