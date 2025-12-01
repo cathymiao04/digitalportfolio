@@ -10,7 +10,9 @@ _Expected May 2026_  | Ithaca, NY
 <div class="card-row">
 
   <div class="card third">
-  <h2>Relevant Coursework</h2>
+  <div style="text-align:center;">
+    <h2>Relevant Coursework</h2>
+  </div>
   <div class="pill-box">
     <div class="pill">Algorithms</div>
     <div class="pill">Computer Systems</div>
@@ -23,7 +25,9 @@ _Expected May 2026_  | Ithaca, NY
   </div>
 
   <div class="card third">
+  <div style="text-align:center;">
   <h2>Programming Languages</h2>
+</div>
   <div class="pill-box">
     <div class="pill">Python</div>
     <div class="pill">Go</div>
@@ -35,7 +39,9 @@ _Expected May 2026_  | Ithaca, NY
   </div>
 
   <div class="card third">
-  <h2>Tools / Frameworks</h2>
+  <div style="text-align:center;">
+  <h2>Tools/Frameworks</h2>
+</div>
   <div class="pill-box">
     <div class="pill">Kubernetes</div>
     <div class="pill">Docker</div>
