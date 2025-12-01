@@ -60,15 +60,19 @@ _Expected May 2026_  | Ithaca, NY
 
 # Relevant Experience
 
+<div class="experience-block" markdown="1">
+
 ## Datadog Internship
 
-_**Software Engineer Intern**_  
-_2025_ | New York, NY
+**Software Engineer Intern**  
+_2025 | New York, NY_
 
-**Work Included:**
+### Work Included:
 - Developed tools in Go and TypeScript to diagnose and remediate issues in large-scale containerized workloads
-- Built an automated workflow for detecting and addressing resource-related application failures, generating configuration patches based on runtime behavior
-- Implemented a customizable views feature enabling engineers to save and reuse configuration filters, improving day-to-day debugging efficiency
+- Built an automated workflow for detecting and addressing resource-related application failures
+- Implemented a customizable views feature enabling engineers to save and reuse configuration filters
+
+</div>
 
 # Projects
 
