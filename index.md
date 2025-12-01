@@ -4,10 +4,18 @@
 
 {% include timeline.html %}
 
-# Cornell University, College of Engineering
-_Expected May 2026_  | Ithaca, NY
-- Bachelor of Science, Computer Science
-- Minor in Applied Mathematics
+<div class="education-block" markdown="1">
+
+## Cornell University, College of Engineering
+
+<p class="education-meta">
+  Expected May 2026 &nbsp; | &nbsp; Ithaca, NY
+</p>
+
+- Bachelor of Science, Computer Science  
+- Minor in Applied Mathematics  
+
+</div>
 
 <div class="card-row">
 
