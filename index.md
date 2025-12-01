@@ -9,39 +9,50 @@ _Expected May 2026_  | Ithaca, NY
 - Bachelor of Science, Computer Science
 - Minor in Applied Mathematics
 
-# Relevant Coursework  
+<div class="card-row">
 
-<div class="pill-box">
-  <div class="pill">Algorithms</div>
-  <div class="pill">Computer Systems</div>
-  <div class="pill">Database Systems</div>
-  <div class="pill">Discrete Structures</div>
-  <div class="pill">Functional Programming</div>
-  <div class="pill">Machine Learning</div>
-  <div class="pill">OOP & Data Structures</div>
+  <div class="card third">
+  <h2>Relevant Coursework</h2>
+  <div class="pill-box">
+    <div class="pill">Algorithms</div>
+    <div class="pill">Computer Systems</div>
+    <div class="pill">Database Systems</div>
+    <div class="pill">Discrete Structures</div>
+    <div class="pill">Functional Programming</div>
+    <div class="pill">Machine Learning</div>
+    <div class="pill">OOP & Data Structures</div>
+  </div>
+  </div>
+
+  <div class="card third">
+  <h2>Programming Languages</h2>
+  <div class="pill-box">
+    <div class="pill">Python</div>
+    <div class="pill">Go</div>
+    <div class="pill">TypeScript</div>
+    <div class="pill">Java</div>
+    <div class="pill">OCaml</div>
+    <div class="pill">SQL</div>
+  </div>
+  </div>
+
+  <div class="card third">
+  <h2>Tools / Frameworks</h2>
+  <div class="pill-box">
+    <div class="pill">Kubernetes</div>
+    <div class="pill">Docker</div>
+    <div class="pill">AWS</div>
+    <div class="pill">GCP</div>
+    <div class="pill">Azure</div>
+    <div class="pill">Git</div>
+    <div class="pill">React</div>
+    <div class="pill">Node.js</div>
+    <div class="pill">Express</div>
+    <div class="pill">PostgreSQL</div>
+  </div>
+  </div>
+
 </div>
-
-# Skills
-
-* Programming Languages
-  * Python
-  * Go
-  * TypeScript
-  * Java
-  * OCaml
-  * SQL
-
-* Tools / Frameworks
-  * Kubernetes
-  * Docker
-  * AWS
-  * GCP
-  * Azure
-  * Git
-  * React
-  * Node.js
-  * Express
-  * PostgreSQL
 
 # Relevant Experience
 
