@@ -9,7 +9,7 @@
 ## Cornell University, College of Engineering
 
 <p class="education-meta">
-  Expected May 2026 &nbsp; | &nbsp; Ithaca, NY
+  Expected May 2026 &nbsp;
 </p>
 
 - Bachelor of Science, Computer Science  
