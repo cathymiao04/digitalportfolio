@@ -1,4 +1,6 @@
 # Cathy Miao
+
+## Timeline
 {% include timeline.html %}
 
 ## Cornell University, College of Engineering
@@ -73,7 +75,3 @@ Worked on conversational AI performance analysis using clustering techniques.
 - Evaluated HDBSCAN clustering for chatbot user-intent classification using Python and TensorFlow
 - Improved clustering accuracy and scalability for large conversational datasets
 - Constructed confusion matrices to identify systematic misclassification patterns
-
-
-## Timeline
-{% include timeline.html %}
