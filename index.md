@@ -70,7 +70,7 @@ _2025_ | New York, NY
 
 ## Financial Literacy Platform | React, Flask
 
-### Overview
+### [Overview](https://github.com/cfgjc24/Team-6)
 Developed a full-stack platform for a nonprofit educational organization supporting student financial literacy.
 
 ### Individual Contributions
