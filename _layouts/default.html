@@ -6,40 +6,40 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 
-<script>
-  (function () {
-    const track = document.querySelector('.slider-track');
-    if (!track) return;
+<body>
 
-    const slides = document.querySelectorAll('.project-slide');
-    const prev = document.querySelector('.slider-btn.left');
-    const next = document.querySelector('.slider-btn.right');
+  {% include navbar.html %}
 
-    let index = 0;
+  <main class="content">
+    {{ content }}
+  </main>
 
-    function update() {
-      track.style.transform = `translateX(-${index * 100}%)`;
-    }
+  <script>
+    (function () {
+      const track = document.querySelector('.slider-track');
+      if (!track) return;
 
-    prev.addEventListener('click', () => {
-      index = Math.max(index - 1, 0);
-      update();
-    });
+      const slides = document.querySelectorAll('.project-slide');
+      const prev = document.querySelector('.slider-btn.left');
+      const next = document.querySelector('.slider-btn.right');
 
-    next.addEventListener('click', () => {
-      index = Math.min(index + 1, slides.length - 1);
-      update();
-    });
-  })();
-</script>
+      let index = 0;
 
-  <body>
+      function update() {
+        track.style.transform = `translateX(-${index * 100}%)`;
+      }
 
-    {% include navbar.html %}
+      prev.addEventListener('click', () => {
+        index = Math.max(index - 1, 0);
+        update();
+      });
 
-    <main class="content">
-      {{ content }}
-    </main>
+      next.addEventListener('click', () => {
+        index = Math.min(index + 1, slides.length - 1);
+        update();
+      });
+    })();
+  </script>
 
-  </body>
+</body>
 </html>
