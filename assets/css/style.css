@@ -83,6 +83,7 @@ body {
 .carousel-window {
   overflow: hidden;
   width: 100%;
+  padding: 0 1.25rem;
 }
 
 .carousel-track {
@@ -97,7 +98,7 @@ body {
   background: #ffffff;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(26, 115, 232, 0.08);
-  margin: 0 1.25rem;
+  margin: 0 auto;
 }
 
 .project-title {
