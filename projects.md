@@ -27,12 +27,18 @@ title: Projects
             supporting student financial literacy.
           </p>
         </div>
-
-        <p class="project-links">
-          <a href="https://github.com/cfgjc24/Team-6" target="_blank" rel="noopener">
-            View Code →
-          </a>
-        </p>
+        
+<div class="project-embed">
+  <iframe
+    src="https://www.canva.com/design/DAGRZJwKJVc/J3lBtWkJzZC4hoIEdjPnzg/view?embed"
+    frameborder="0"
+    width="600"
+    height="450"
+    allowfullscreen="true"
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true">
+  </iframe>
+</div>
 
         <p class="project-contributions-label">Contributions</p>
 
