@@ -72,7 +72,7 @@ body {
 }
 
 .social-links svg {
-  transform: scale(0.3);
+  transform: scale(0.5);
   transform-origin: left center;
   fill: #1a73e8;
   display: inline-block;
