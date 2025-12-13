@@ -47,7 +47,7 @@ title: Projects
       <!-- Project 2 -->
       <div class="project-slide">
 
-        <h2 class="project-title">HDBScan Research</h2>
+        <h2 class="project-title">HDBSCAN Research</h2>
 
         <div class="project-tools">
           <span class="tool-pill">Python</span>
