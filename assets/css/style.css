@@ -94,10 +94,15 @@ body {
 .project-slide {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 2rem;
-  background: #ffffff;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(26, 115, 232, 0.08);
+  padding: 2.5rem 3rem;
+  background: #fdfefe;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f7faff 100%
+  );
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(26, 115, 232, 0.10);
   margin: 0 auto;
 }
 
@@ -122,6 +127,17 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 0.4rem;
+}
+
+.project-contributions-label {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280;
+  text-align: left;
 }
 
 .project-links {
