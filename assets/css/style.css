@@ -123,9 +123,54 @@ li {
 }
 
 .experience-block {
-  margin-top: 2.5rem;
-  padding-left: 1rem;
+  margin-top: 3rem;
+  padding-left: 1.25rem;
   border-left: 3px solid #1a73e8;
+}
+
+.experience-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.experience-details {
+  margin-top: 0.25rem;
+}
+
+.experience-details summary {
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #1a73e8;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.experience-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.experience-details summary::before {
+  content: "▸";
+  margin-right: 0.4rem;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.experience-details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.experience-details ul {
+  margin-top: 0.75rem;
+  margin-left: 1.25rem;
+}
+
+.experience-details li {
+  margin-bottom: 0.5rem;
+  max-width: 700px;
 }
 
 a {
