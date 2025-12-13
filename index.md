@@ -5,6 +5,8 @@ title: About
 
 # Cathy Miao
 
+<div class="about-card">
+
 <div class="social-links">
   <a href="https://github.com/cathymiao04" target="_blank" aria-label="GitHub">
     <svg role="img" viewBox="0 0 24 24">
@@ -19,9 +21,26 @@ title: About
   </a>
 </div>
 
-## About Me
-I am a senior at Cornell University majoring in Computer Science with a minor in Applied Mathematics, with a strong interest in infrastructure engineering and full-stack development.
+ <h2 class="about-heading">About Me</h2>
 
-My experience spans backend services, cloud infrastructure, and frontend development. I enjoy working across the stack—from designing APIs and user-facing experiences to deploying containerized applications and improving system observability and performance.
+  <div class="about-text">
+    <p>
+      I am a senior at Cornell University majoring in Computer Science with a minor
+      in Applied Mathematics, with a strong interest in infrastructure engineering
+      and full-stack development.
+    </p>
 
-Outside of coursework and engineering work, I enjoy creative writing, gaming, and watching soccer.
+    <p>
+      My experience spans backend services, cloud infrastructure, and frontend
+      development. I enjoy working across the stack—from designing APIs and
+      user-facing experiences to deploying containerized applications and
+      improving system observability and performance.
+    </p>
+
+    <p>
+      Outside of coursework and engineering work, I enjoy creative writing,
+      gaming, and watching soccer.
+    </p>
+  </div>
+
+</div>
