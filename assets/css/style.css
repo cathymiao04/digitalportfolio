@@ -237,3 +237,16 @@ body {
   line-height: 1.55;
 }
 
+.project-embed {
+  margin: 2rem auto;
+  max-width: 760px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.project-embed iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
