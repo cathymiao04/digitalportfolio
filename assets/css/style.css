@@ -44,6 +44,43 @@ body {
   gap: 1.5rem;
 }
 
+.about-card {
+  margin-top: 2.5rem;
+  padding: 2.75rem 3rem;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f7faff 100%
+  );
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(26, 115, 232, 0.08);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.25rem;
+}
+
+.about-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a73e8;
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  max-width: 760px;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #222;
+}
+
 .social-links {
   margin-top: 0.5rem;
   display: flex;
