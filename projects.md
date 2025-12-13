@@ -47,7 +47,7 @@ title: Projects
       <!-- Project 2 -->
       <div class="project-slide">
 
-        <h2 class="project-title">Research Assistant</h2>
+        <h2 class="project-title">HDBScan Research</h2>
 
         <div class="project-tools">
           <span class="tool-pill">Python</span>
@@ -61,12 +61,10 @@ title: Projects
           </p>
         </div>
 
-        <p class="project-links">
-          <a href="https://docs.google.com/presentation/d/1gs0TbYA4DcNAkxH30osjYPhzEgHJXDwaDLdxGQghb20/edit"
-             target="_blank" rel="noopener">
-            View Research →
-          </a>
-        </p>
+        <div class="project-embed">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJxNrfPfgSk7FHCoRqs5kIDnNiAMnBvZCmjeqobCmRooVVS0OWemVg_VPn8NFYnfAShJRaN-Kt84Gs/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
 
         <p class="project-contributions-label">Contributions</p>
 
