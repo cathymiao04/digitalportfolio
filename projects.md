@@ -10,21 +10,28 @@ title: Projects
   <div class="carousel-window">
     <div class="carousel-track" data-carousel-track>
 
+      <!-- Project 1 -->
       <div class="project-slide">
-        <h2>Financial Literacy Platform</h2>
+
+        <h2 class="project-title">Financial Literacy Platform</h2>
 
         <div class="project-tools">
           <span class="tool-pill">React</span>
           <span class="tool-pill">Flask</span>
         </div>
 
-        <p>
-          Developed a full-stack platform for a nonprofit educational organization
-          supporting student financial literacy.
-        </p>
+        <div class="project-overview">
+          <p class="project-overview-label">Overview</p>
+          <p>
+            Developed a full-stack platform for a nonprofit educational organization
+            supporting student financial literacy.
+          </p>
+        </div>
 
-        <p>
-          <a href="https://github.com/cfgjc24/Team-6" target="_blank">Overview</a>
+        <p class="project-links">
+          <a href="https://github.com/cfgjc24/Team-6" target="_blank" rel="noopener">
+            View Code →
+          </a>
         </p>
 
         <ul>
@@ -32,23 +39,30 @@ title: Projects
           <li>Integrated frontend with a Flask backend implementing secure authentication</li>
           <li>Created RESTful APIs for real-time analytics visualization</li>
         </ul>
+
       </div>
 
+      <!-- Project 2 -->
       <div class="project-slide">
-        <h2>Research Assistant</h2>
+
+        <h2 class="project-title">Research Assistant</h2>
 
         <div class="project-tools">
           <span class="tool-pill">Python</span>
           <span class="tool-pill">TensorFlow</span>
         </div>
 
-        <p>
-          Worked on conversational AI performance analysis using clustering techniques.
-        </p>
+        <div class="project-overview">
+          <p class="project-overview-label">Overview</p>
+          <p>
+            Worked on conversational AI performance analysis using clustering techniques.
+          </p>
+        </div>
 
-        <p>
-          <a href="https://docs.google.com/presentation/d/1gs0TbYA4DcNAkxH30osjYPhzEgHJXDwaDLdxGQghb20/edit" target="_blank">
-            Overview
+        <p class="project-links">
+          <a href="https://docs.google.com/presentation/d/1gs0TbYA4DcNAkxH30osjYPhzEgHJXDwaDLdxGQghb20/edit"
+             target="_blank" rel="noopener">
+            View Research →
           </a>
         </p>
 
@@ -57,10 +71,13 @@ title: Projects
           <li>Improved clustering scalability for large conversational datasets</li>
           <li>Built confusion matrices to diagnose misclassification patterns</li>
         </ul>
+
       </div>
 
+      <!-- Project 3 -->
       <div class="project-slide">
-        <h2>Expense Tracker</h2>
+
+        <h2 class="project-title">Expense Tracker</h2>
 
         <div class="project-tools">
           <span class="tool-pill">Next.js</span>
@@ -68,12 +85,18 @@ title: Projects
           <span class="tool-pill">PostgreSQL</span>
         </div>
 
-        <p>
-          Developed a full-stack platform for expense tracking and budget management.
-        </p>
+        <div class="project-overview">
+          <p class="project-overview-label">Overview</p>
+          <p>
+            Developed a full-stack platform for expense tracking and budget management.
+          </p>
+        </div>
 
-        <p>
-          <a href="https://expense-tracker-mu-mocha.vercel.app/" target="_blank">Live Demo</a>
+        <p class="project-links">
+          <a href="https://expense-tracker-mu-mocha.vercel.app/"
+             target="_blank" rel="noopener">
+            Live Demo →
+          </a>
         </p>
 
         <ul>
@@ -81,6 +104,7 @@ title: Projects
           <li>Built interactive data visualizations for real-time expense tracking</li>
           <li>Designed backend APIs to support persistent user data and analytics</li>
         </ul>
+
       </div>
 
     </div>
