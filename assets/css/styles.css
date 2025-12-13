@@ -1,35 +1,41 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #fafafa;
-  color: #222;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  line-height: 1.6;
 }
 
 .content {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 2rem;
 }
 
-/* Navbar */
 .navbar {
+  border-bottom: 1px solid #e6e6e6;
   background: #ffffff;
-  border-bottom: 1px solid #eaeaea;
 }
 
-.nav-container {
-  max-width: 1000px;
+.nav-inner {
+  max-width: 900px;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-brand {
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
   text-decoration: none;
-  color: #000;
+  color: #1a73e8; /* original blue */
 }
 
 .nav-links {
@@ -40,46 +46,77 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #1a73e8; /* original blue */
+  font-weight: 500;
 }
 
-/* Cards & pills */
-.card-row {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+.nav-links a:hover {
+  text-decoration: underline;
 }
 
-.card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
-.card.third {
-  flex: 1;
-  min-width: 250px;
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
-.pill-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
 }
 
-.pill {
-  background: #f0f0f0;
-  padding: 0.4rem 0.8rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
+p {
+  font-size: 1.05rem;
+  max-width: 750px;
+  margin-bottom: 1rem;
 }
 
-/* Timeline */
+ul {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+.education-block {
+  margin-top: 2.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #1a73e8;
+}
+
+.education-meta {
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.experience-block {
+  margin-top: 2.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #1a73e8;
+}
+
+a {
+  color: #1a73e8;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .timeline {
-  border-left: 2px solid #ddd;
-  margin-left: 1rem;
+  margin-top: 2.5rem;
   padding-left: 1.5rem;
+  border-left: 2px solid #ccc;
 }
 
 .timeline-item {
@@ -87,7 +124,7 @@ body {
 }
 
 .timeline-date {
-  font-weight: bold;
+  font-size: 0.9rem;
   color: #555;
+  margin-bottom: 0.25rem;
 }
-
