@@ -17,10 +17,10 @@
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const track = document.querySelector('[data-carousel-track]');
-      const nextBtn = document.querySelector('[data-carousel-next]');
-      const prevBtn = document.querySelector('[data-carousel-prev]');
+      const prev = document.querySelector('[data-carousel-prev]');
+      const next = document.querySelector('[data-carousel-next]');
 
-      if (!track || !nextBtn || !prevBtn) return;
+      if (!track || !prev || !next) return;
 
       const slides = track.children;
       const total = slides.length;
@@ -30,12 +30,12 @@
         track.style.transform = `translateX(-${index * 100}%)`;
       }
 
-      nextBtn.addEventListener('click', function () {
+      next.addEventListener('click', () => {
         index = (index + 1) % total;
         update();
       });
 
-      prevBtn.addEventListener('click', function () {
+      prev.addEventListener('click', () => {
         index = (index - 1 + total) % total;
         update();
       });
