@@ -17,51 +17,52 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const track = document.querySelector('[data-slider-track]');
-  const slides = Array.from(track.children);
   const prev = document.querySelector('.slider-btn.left');
   const next = document.querySelector('.slider-btn.right');
 
-  if (!track || !slides.length || !prev || !next) return;
+  if (!track || !prev || !next) return;
 
-  const firstClone = slides[0].cloneNode(true);
-  const lastClone = slides[slides.length - 1].cloneNode(true);
+  const slides = Array.from(track.children);
+  const first = slides[0];
+  const last = slides[slides.length - 1];
+
+  const firstClone = first.cloneNode(true);
+  const lastClone = last.cloneNode(true);
 
   track.appendChild(firstClone);
-  track.insertBefore(lastClone, slides[0]);
+  track.insertBefore(lastClone, first);
 
-  const allSlides = Array.from(track.children);
+  const all = Array.from(track.children);
   let index = 1;
-  const slideWidth = 100;
 
-  track.style.transform = `translateX(-${index * slideWidth}%)`;
+  // Initial position
+  track.style.transform = `translateX(-${index * 100}%)`;
 
-  function move() {
+  function jumpTo(i) {
+    track.style.transition = 'none';
+    track.style.transform = `translateX(-${i * 100}%)';
+    track.offsetHeight;
     track.style.transition = 'transform 0.4s ease';
-    track.style.transform = `translateX(-${index * slideWidth}%)`;
+    index = i;
+  }
+
+  function moveTo(i) {
+    index = i;
+    track.style.transform = `translateX(-${index * 100}%)`;
   }
 
   next.addEventListener('click', () => {
-    index++;
-    move();
+    if (index === all.length - 2) {
+      jumpTo(1);
+    }
+    moveTo(index + 1);
   });
 
   prev.addEventListener('click', () => {
-    index--;
-    move();
-  });
-
-  track.addEventListener('transitionend', () => {
-    if (allSlides[index].isSameNode(firstClone)) {
-      track.style.transition = 'none';
-      index = 1;
-      track.style.transform = `translateX(-${index * slideWidth}%)`;
+    if (index === 1) {
+      jumpTo(all.length - 2);
     }
-
-    if (allSlides[index].isSameNode(lastClone)) {
-      track.style.transition = 'none';
-      index = allSlides.length - 2;
-      track.style.transform = `translateX(-${index * slideWidth}%)`;
-    }
+    moveTo(index - 1);
   });
 });
 </script>
