@@ -27,6 +27,7 @@
     }
 
     let index = 0;
+    const total = slides.length;
 
     function update() {
       track.style.transform = `translateX(-${index * 100}%)`;
@@ -34,17 +35,15 @@
 
     prev.addEventListener('click', function (e) {
       e.preventDefault();
-      index = Math.max(index - 1, 0);
+      index = (index - 1 + total) % total;
       update();
     });
 
     next.addEventListener('click', function (e) {
       e.preventDefault();
-      index = Math.min(index + 1, slides.length - 1);
+      index = (index + 1) % total;
       update();
     });
-
-    console.log('Project slider initialized');
   });
 </script>
 
