@@ -17,7 +17,6 @@ body {
   padding: 0 2rem;
 }
 
-/* NAVBAR */
 .navbar {
   border-bottom: 1px solid #e6e6e6;
   background: #ffffff;
@@ -62,7 +61,6 @@ body {
   fill: #1a73e8;
 }
 
-/* EXPERIENCE */
 .experience-block {
   margin-top: 3rem;
   padding-left: 1.25rem;
