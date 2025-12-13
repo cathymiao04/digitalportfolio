@@ -10,7 +10,7 @@ title: Projects
   <button class="slider-btn left" aria-label="Previous project">‹</button>
 
   <div class="slider-window">
-    <div class="slider-track">
+    <div class="slider-track" data-slider-track>
 
       <section class="project-slide">
         <h2>Financial Literacy Platform</h2>
