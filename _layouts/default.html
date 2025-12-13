@@ -6,6 +6,33 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 
+<script>
+  (function () {
+    const track = document.querySelector('.slider-track');
+    if (!track) return;
+
+    const slides = document.querySelectorAll('.project-slide');
+    const prev = document.querySelector('.slider-btn.left');
+    const next = document.querySelector('.slider-btn.right');
+
+    let index = 0;
+
+    function update() {
+      track.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    prev.addEventListener('click', () => {
+      index = Math.max(index - 1, 0);
+      update();
+    });
+
+    next.addEventListener('click', () => {
+      index = Math.min(index + 1, slides.length - 1);
+      update();
+    });
+  })();
+</script>
+
   <body>
 
     {% include navbar.html %}
