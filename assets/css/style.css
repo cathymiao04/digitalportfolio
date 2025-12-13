@@ -81,10 +81,24 @@ body {
   color: #374151;
   margin-bottom: 0.75rem;
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .experience-details summary::-webkit-details-marker {
   display: none;
+}
+
+.experience-details summary::before {
+  content: "▸";
+  color: #1a73e8;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.experience-details[open] summary::before {
+  transform: rotate(90deg);
 }
 
 .experience-details ul {
