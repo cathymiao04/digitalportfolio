@@ -86,4 +86,9 @@ title: Projects
     </div>
   </div>
 
+  <div class="carousel-controls">
+    <button class="carousel-btn" data-carousel-prev>← Prev</button>
+    <button class="carousel-btn" data-carousel-next>Next →</button>
+  </div>
+
 </div>
