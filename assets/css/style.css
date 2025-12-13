@@ -316,13 +316,11 @@ h1 {
 .timeline-item.left {
   left: 0;
   text-align: right;
-  transform: translateX(10%);
 }
 
 .timeline-item.right {
   left: 50%;
   text-align: left;
-  transform: translateX(-10%);
 }
 
 .timeline-item::before {
