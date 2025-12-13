@@ -34,6 +34,8 @@ title: Projects
           </a>
         </p>
 
+        <p class="project-contributions-label">Contributions</p>
+
         <ul>
           <li>Built a customizable React frontend with progress tracking and engagement metrics</li>
           <li>Integrated frontend with a Flask backend implementing secure authentication</li>
@@ -65,6 +67,8 @@ title: Projects
             View Research →
           </a>
         </p>
+
+        <p class="project-contributions-label">Contributions</p>
 
         <ul>
           <li>Evaluated HDBSCAN clustering for user-intent classification</li>
@@ -98,6 +102,8 @@ title: Projects
             Live Demo →
           </a>
         </p>
+
+        <p class="project-contributions-label">Contributions</p>
 
         <ul>
           <li>Implemented secure user authentication and budgeting workflows</li>
