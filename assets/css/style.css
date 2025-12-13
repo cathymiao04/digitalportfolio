@@ -87,11 +87,13 @@ body {
 
 .carousel-track {
   display: flex;
+  width: 100%;
   transition: transform 0.5s ease;
 }
 
 .project-slide {
-  min-width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
   padding: 0 1rem;
 }
 
@@ -108,7 +110,6 @@ body {
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  padding: 0;
 }
 
 .carousel-btn:hover {
