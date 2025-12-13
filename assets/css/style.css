@@ -65,10 +65,14 @@ body {
 }
 
 .social-links svg {
-  transform: scale(0.75);
-  transform-origin: left center;
+  width: 16px;
+  height: 16px;
   fill: #1a73e8;
   display: inline-block;
+}
+
+.social-links a {
+  line-height: 1;
 }
 
 h1 {
