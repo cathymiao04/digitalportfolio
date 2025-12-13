@@ -7,74 +7,66 @@ title: Projects
 
 <div class="project-slider">
 
-  <button class="slider-btn left" aria-label="Previous project">‹</button>
+  <button class="slider-btn left">‹</button>
 
   <div class="slider-window">
     <div class="slider-track" data-slider-track>
 
       <section class="project-slide">
         <h2>Financial Literacy Platform</h2>
-        <p class="project-meta">React · Flask</p>
+        <div class="project-tools">
+          <span class="tool-pill">React</span>
+          <span class="tool-pill">Flask</span>
+        </div>
 
-        <p>
-          Developed a full-stack platform for a nonprofit educational organization
-          supporting student financial literacy.
-        </p>
-
-        <p>
-          <a href="https://github.com/cfgjc24/Team-6" target="_blank">Overview</a>
-        </p>
+        <p>Developed a full-stack platform supporting student financial literacy.</p>
+        <p><a href="https://github.com/cfgjc24/Team-6" target="_blank">Overview</a></p>
 
         <ul>
-          <li>Built a customizable React frontend with progress tracking and engagement metrics</li>
-          <li>Integrated frontend with a Flask backend implementing secure authentication</li>
-          <li>Created RESTful APIs for real-time analytics visualization</li>
+          <li>Built customizable frontend dashboards.</li>
+          <li>Implemented secure backend authentication.</li>
+          <li>Designed REST APIs for analytics.</li>
         </ul>
       </section>
 
       <section class="project-slide">
         <h2>Research Assistant</h2>
-        <p class="project-meta">Python · TensorFlow</p>
+        <div class="project-tools">
+          <span class="tool-pill">Python</span>
+          <span class="tool-pill">TensorFlow</span>
+        </div>
 
-        <p>
-          Worked on conversational AI performance analysis using clustering techniques.
-        </p>
-
-        <p>
-          <a href="https://docs.google.com/presentation/d/1gs0TbYA4DcNAkxH30osjYPhzEgHJXDwaDLdxGQghb20/edit" target="_blank">
-            Overview
-          </a>
-        </p>
+        <p>Analyzed conversational AI performance using clustering techniques.</p>
+        <p><a href="https://docs.google.com/presentation/d/1gs0TbYA4DcNAkxH30osjYPhzEgHJXDwaDLdxGQghb20/edit" target="_blank">Overview</a></p>
 
         <ul>
-          <li>Evaluated HDBSCAN clustering for user-intent classification</li>
-          <li>Improved clustering scalability for large conversational datasets</li>
-          <li>Built confusion matrices to diagnose misclassification patterns</li>
+          <li>Evaluated HDBSCAN for intent classification.</li>
+          <li>Improved scalability on large datasets.</li>
+          <li>Built confusion matrices for diagnostics.</li>
         </ul>
       </section>
 
       <section class="project-slide">
         <h2>Expense Tracker</h2>
-        <p class="project-meta">Next.js · Tailwind · PostgreSQL</p>
+        <div class="project-tools">
+          <span class="tool-pill">Next.js</span>
+          <span class="tool-pill">Tailwind</span>
+          <span class="tool-pill">PostgreSQL</span>
+        </div>
 
-        <p>
-          Developed a full-stack platform for expense tracking and budget management.
-        </p>
-
-        <p>
-          <a href="https://expense-tracker-mu-mocha.vercel.app/" target="_blank">Live Demo</a>
-        </p>
+        <p>Built a full-stack expense tracking and budgeting platform.</p>
+        <p><a href="https://expense-tracker-mu-mocha.vercel.app/" target="_blank">Live Demo</a></p>
 
         <ul>
-          <li>Implemented secure user authentication and budget management workflows</li>
-          <li>Built interactive data visualizations for real-time expense tracking</li>
-          <li>Designed backend APIs to support persistent user data and analytics</li>
+          <li>Implemented authentication and budgeting workflows.</li>
+          <li>Built interactive financial visualizations.</li>
+          <li>Designed persistent backend data models.</li>
         </ul>
       </section>
 
     </div>
   </div>
 
-  <button class="slider-btn right" aria-label="Next project">›</button>
+  <button class="slider-btn right">›</button>
 
 </div>
