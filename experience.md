@@ -10,7 +10,7 @@ title: Experience
   <h2 class="experience-title">Software Engineer Intern @ Datadog</h2>
 
   <details class="experience-details">
-    <summary>Work Included</summary>
+    <summary>Key Contributions</summary>
     <ul>
       <li>
         Developed internal tools in Go and TypeScript to diagnose and remediate issues
@@ -36,7 +36,7 @@ title: Experience
   </h2>
 
   <details class="experience-details">
-    <summary>Work Included</summary>
+    <summary>Key Contributions</summary>
     <ul>
       <li>
         Designed and implemented a Q-learning algorithm to enable autonomous navigation
