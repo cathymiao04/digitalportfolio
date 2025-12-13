@@ -308,7 +308,7 @@ h1 {
 
 .timeline-item {
   position: relative;
-  width: 50%;
+  width: 60%;
   padding: 1.5rem 2.5rem;
   box-sizing: border-box;
 }
@@ -319,7 +319,7 @@ h1 {
 }
 
 .timeline-item.right {
-  left: 50%;
+  left: 40%;
   text-align: left;
 }
 
