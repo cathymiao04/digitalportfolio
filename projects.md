@@ -3,14 +3,14 @@ layout: default
 title: Projects
 ---
 
-# Projects
+<h1>Projects</h1>
 
 <div class="project-carousel">
 
   <div class="carousel-window">
     <div class="carousel-track" data-carousel-track>
 
-      <section class="project-slide">
+      <div class="project-slide">
         <h2>Financial Literacy Platform</h2>
 
         <div class="project-tools">
@@ -32,9 +32,9 @@ title: Projects
           <li>Integrated frontend with a Flask backend implementing secure authentication</li>
           <li>Created RESTful APIs for real-time analytics visualization</li>
         </ul>
-      </section>
+      </div>
 
-      <section class="project-slide">
+      <div class="project-slide">
         <h2>Research Assistant</h2>
 
         <div class="project-tools">
@@ -57,9 +57,9 @@ title: Projects
           <li>Improved clustering scalability for large conversational datasets</li>
           <li>Built confusion matrices to diagnose misclassification patterns</li>
         </ul>
-      </section>
+      </div>
 
-      <section class="project-slide">
+      <div class="project-slide">
         <h2>Expense Tracker</h2>
 
         <div class="project-tools">
@@ -81,7 +81,7 @@ title: Projects
           <li>Built interactive data visualizations for real-time expense tracking</li>
           <li>Designed backend APIs to support persistent user data and analytics</li>
         </ul>
-      </section>
+      </div>
 
     </div>
   </div>
