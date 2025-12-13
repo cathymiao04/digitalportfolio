@@ -191,11 +191,12 @@ body {
 }
 
 .project-slide ul {
-  margin-top: 0.75rem;
   margin-left: 1.25rem;
+  max-width: 760px;
 }
 
 .project-slide li {
-  margin-bottom: 0.4rem;
-  max-width: 700px;
+  margin-bottom: 0.65rem;
+  line-height: 1.55;
 }
+
