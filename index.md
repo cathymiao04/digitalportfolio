@@ -22,5 +22,3 @@ interested in full-stack development and applied machine learning.
 - Minor in Applied Mathematics  
 
 </div>
-
-</div>
