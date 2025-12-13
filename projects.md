@@ -62,7 +62,7 @@ title: Projects
         </div>
 
         <div class="project-embed">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJxNrfPfgSk7FHCoRqs5kIDnNiAMnBvZCmjeqobCmRooVVS0OWemVg_VPn8NFYnfAShJRaN-Kt84Gs/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQJxNrfPfgSk7FHCoRqs5kIDnNiAMnBvZCmjeqobCmRooVVS0OWemVg_VPn8NFYnfAShJRaN-Kt84Gs/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="700" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
 
