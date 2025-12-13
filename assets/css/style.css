@@ -87,14 +87,45 @@ body {
 
 .carousel-track {
   display: flex;
-  width: 100%;
   transition: transform 0.5s ease;
 }
 
 .project-slide {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
+  border-left: 3px solid #1a73e8;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a73e8;
+  margin-bottom: 0.5rem;
+}
+
+.project-overview {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  max-width: 720px;
+}
+
+.project-overview-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.25rem;
+}
+
+.project-links a {
+  font-weight: 500;
+  color: #1a73e8;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
 }
 
 .carousel-controls {
@@ -129,4 +160,14 @@ body {
   padding: 0.3rem 0.65rem;
   border-radius: 999px;
   font-weight: 500;
+}
+
+.project-slide ul {
+  margin-top: 0.75rem;
+  margin-left: 1.25rem;
+}
+
+.project-slide li {
+  margin-bottom: 0.4rem;
+  max-width: 700px;
 }
