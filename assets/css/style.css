@@ -93,34 +93,43 @@ body {
 .project-slide {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 0 1.25rem;
-  border-left: 3px solid #1a73e8;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(26, 115, 232, 0.08);
+  margin: 0 1.25rem;
 }
 
 .project-title {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 700;
   color: #1a73e8;
-  margin-bottom: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .project-overview {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  margin: 1.25rem auto;
   max-width: 720px;
+  text-align: center;
 }
 
 .project-overview-label {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  color: #555;
+  color: #6b7280;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
-  margin-bottom: 0.25rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
+}
+
+.project-links {
+  text-align: center;
+  margin: 1rem 0;
 }
 
 .project-links a {
-  font-weight: 500;
+  font-weight: 600;
   color: #1a73e8;
 }
 
@@ -149,8 +158,10 @@ body {
 
 .project-tools {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .tool-pill {
