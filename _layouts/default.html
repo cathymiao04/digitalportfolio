@@ -14,58 +14,33 @@
     {{ content }}
   </main>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const track = document.querySelector('[data-slider-track]');
-  const prev = document.querySelector('.slider-btn.left');
-  const next = document.querySelector('.slider-btn.right');
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const track = document.querySelector('[data-carousel-track]');
+      const nextBtn = document.querySelector('[data-carousel-next]');
+      const prevBtn = document.querySelector('[data-carousel-prev]');
 
-  if (!track || !prev || !next) return;
+      if (!track || !nextBtn || !prevBtn) return;
 
-  const slides = Array.from(track.children);
-  const first = slides[0];
-  const last = slides[slides.length - 1];
+      const slides = track.children;
+      const total = slides.length;
+      let index = 0;
 
-  const firstClone = first.cloneNode(true);
-  const lastClone = last.cloneNode(true);
+      function update() {
+        track.style.transform = `translateX(-${index * 100}%)`;
+      }
 
-  track.appendChild(firstClone);
-  track.insertBefore(lastClone, first);
+      nextBtn.addEventListener('click', function () {
+        index = (index + 1) % total;
+        update();
+      });
 
-  const all = Array.from(track.children);
-  let index = 1;
-
-  // Initial position
-  track.style.transform = `translateX(-${index * 100}%)`;
-
-  function jumpTo(i) {
-    track.style.transition = 'none';
-    track.style.transform = `translateX(-${i * 100}%)';
-    track.offsetHeight;
-    track.style.transition = 'transform 0.4s ease';
-    index = i;
-  }
-
-  function moveTo(i) {
-    index = i;
-    track.style.transform = `translateX(-${index * 100}%)`;
-  }
-
-  next.addEventListener('click', () => {
-    if (index === all.length - 2) {
-      jumpTo(1);
-    }
-    moveTo(index + 1);
-  });
-
-  prev.addEventListener('click', () => {
-    if (index === 1) {
-      jumpTo(all.length - 2);
-    }
-    moveTo(index - 1);
-  });
-});
-</script>
+      prevBtn.addEventListener('click', function () {
+        index = (index - 1 + total) % total;
+        update();
+      });
+    });
+  </script>
 
 </body>
 </html>
