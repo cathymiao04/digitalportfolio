@@ -365,3 +365,45 @@ h1 {
   color: #6b7280;
   margin-bottom: 0.75rem;
 }
+
+.timeline-details summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.timeline-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.timeline-details summary::after {
+  content: "▸";
+  color: #1a73e8;
+  font-size: 0.9rem;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.timeline-details[open] summary::after {
+  transform: rotate(90deg);
+}
+
+.timeline-details summary h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a73e8;
+  margin: 0;
+}
+
+.timeline-details .timeline-date {
+  font-size: 0.85rem;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.timeline-details p {
+  margin-top: 0.75rem;
+  line-height: 1.65;
+}
